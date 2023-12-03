@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test all on chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test all on chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 03 20:11:58 WAT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>673 seconds (673170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.HomePageTest.Subscription()'><b>Subscription</b><br>Test class: testcases.HomePageTest<br>Parameters: test@yahoo.fr, public void testcases.HomePageTest.Subscription(java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>testcases.HomePageTest@3c46e67a</td></tr>
+<tr>
+<td title='testcases.EndToEndTest.endToEndTest()'><b>endToEndTest</b><br>Test class: testcases.EndToEndTest<br>Parameters: public void testcases.EndToEndTest.endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable, ATT, Mr, 12345, 22, 7, 1990, TestUser, UserTest, Ezee it, Adress1, Adress2, Canada, San, 91436, 2021, 8489875678</td>
+<td></td>
+<td>78</td>
+<td>testcases.EndToEndTest@7586beff</td></tr>
+<tr>
+<td title='testcases.ContactPageTest.ContactUs()'><b>ContactUs</b><br>Test class: testcases.ContactPageTest<br>Parameters: public void testcases.ContactPageTest.ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, AZ, test@gmail.com, Test, It is a long established fact that a reader will be distracted by the readablelook like readable English.</td>
+<td></td>
+<td>18</td>
+<td>testcases.ContactPageTest@2d1ef81a</td></tr>
+<tr>
+<td title='testcases.HomePageTest.VerifyScrollUp()'><b>VerifyScrollUp</b><br>Test class: testcases.HomePageTest<br>Parameters: public void testcases.HomePageTest.VerifyScrollUp(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>5</td>
+<td>testcases.HomePageTest@3c46e67a</td></tr>
+<tr>
+<td title='testcases.SignUpPageTest.RegisterUser()'><b>RegisterUser</b><br>Test class: testcases.SignUpPageTest<br>Parameters: public void testcases.SignUpPageTest.RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, ATT, Mr, 12345, 22, 7, 1990, TestUser, UserTest, Ezee it, Adress1, Adress2, Canada, San, 91436, 2021, 8489875678</td>
+<td></td>
+<td>44</td>
+<td>testcases.SignUpPageTest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.OrderPageTest.RemoveProduct()'><b>RemoveProduct</b><br>Test class: testcases.OrderPageTest<br>Parameters: public void testcases.OrderPageTest.RemoveProduct(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>31</td>
+<td>testcases.OrderPageTest@1165b38</td></tr>
+<tr>
+<td title='testcases.ProductsPageTest.VerifyCategoryProducts()'><b>VerifyCategoryProducts</b><br>Test class: testcases.ProductsPageTest<br>Parameters: public void testcases.ProductsPageTest.VerifyCategoryProducts(java.lang.reflect.Method) throws java.io.IOException</td>
+<td></td>
+<td>11</td>
+<td>testcases.ProductsPageTest@327514f</td></tr>
+<tr>
+<td title='testcases.OrderPageTest.VerifySubscription()'><b>VerifySubscription</b><br>Test class: testcases.OrderPageTest<br>Parameters: public void testcases.OrderPageTest.VerifySubscription(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, test@yahoo.fr</td>
+<td></td>
+<td>3</td>
+<td>testcases.OrderPageTest@1165b38</td></tr>
+<tr>
+<td title='testcases.ProductsPageTest.AddTocart()'><b>AddTocart</b><br>Test class: testcases.ProductsPageTest<br>Parameters: public void testcases.ProductsPageTest.AddTocart(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>31</td>
+<td>testcases.ProductsPageTest@327514f</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.testLoginWithIncorrectCredentials()'><b>testLoginWithIncorrectCredentials</b><br>Test class: testcases.LoginPageTest<br>Parameters: public void testcases.LoginPageTest.testLoginWithIncorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>9</td>
+<td>testcases.LoginPageTest@22ff4249</td></tr>
+<tr>
+<td title='testcases.ProductsPageTest.VerifyAllProducts()'><b>VerifyAllProducts</b><br>Test class: testcases.ProductsPageTest<br>Parameters: public void testcases.ProductsPageTest.VerifyAllProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>15</td>
+<td>testcases.ProductsPageTest@327514f</td></tr>
+<tr>
+<td title='testcases.ShippingPageTest.VerifyDeliveryAdress()'><b>VerifyDeliveryAdress</b><br>Test class: testcases.ShippingPageTest<br>Parameters: public void testcases.ShippingPageTest.VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, ATT, Mr, 12345, 22, 7, 1990, TestUser, UserTest, Ezee it, Adress1, Adress2, Canada, San, 91436, 2021, 8489875678</td>
+<td></td>
+<td>58</td>
+<td>testcases.ShippingPageTest@4c12331b</td></tr>
+<tr>
+<td title='testcases.SearchResultPageTest.SearchProduct()'><b>SearchProduct</b><br>Test class: testcases.SearchResultPageTest<br>Parameters: public void testcases.SearchResultPageTest.SearchProduct(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, Tshirt</td>
+<td></td>
+<td>14</td>
+<td>testcases.SearchResultPageTest@5b12b668</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.Logout()'><b>Logout</b><br>Test class: testcases.LoginPageTest<br>Parameters: public void testcases.LoginPageTest.Logout(java.lang.reflect.Method) throws java.io.IOException</td>
+<td></td>
+<td>15</td>
+<td>testcases.LoginPageTest@22ff4249</td></tr>
+<tr>
+<td title='testcases.OrderPageTest.VerifyProductQte()'><b>VerifyProductQte</b><br>Test class: testcases.OrderPageTest<br>Parameters: public void testcases.OrderPageTest.VerifyProductQte(java.lang.reflect.Method,java.lang.String) throws java.lang.Throwable, 4</td>
+<td></td>
+<td>6</td>
+<td>testcases.OrderPageTest@1165b38</td></tr>
+<tr>
+<td title='testcases.TestCasesPageTest.ClickOnTestCases()'><b>ClickOnTestCases</b><br>Test class: testcases.TestCasesPageTest<br>Parameters: public void testcases.TestCasesPageTest.ClickOnTestCases(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>testcases.TestCasesPageTest@4c402120</td></tr>
+<tr>
+<td title='testcases.ProductsPageTest.VerifyBrandProducts()'><b>VerifyBrandProducts</b><br>Test class: testcases.ProductsPageTest<br>Parameters: public void testcases.ProductsPageTest.VerifyBrandProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>19</td>
+<td>testcases.ProductsPageTest@327514f</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.testLoginWithCorrectCredentials()'><b>testLoginWithCorrectCredentials</b><br>Test class: testcases.LoginPageTest<br>Parameters: public void testcases.LoginPageTest.testLoginWithCorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>16</td>
+<td>testcases.LoginPageTest@22ff4249</td></tr>
+<tr>
+<td title='testcases.SignUpPageTest.RegisterUserWithExistingEmail()'><b>RegisterUserWithExistingEmail</b><br>Test class: testcases.SignUpPageTest<br>Parameters: public void testcases.SignUpPageTest.RegisterUserWithExistingEmail(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException</td>
+<td></td>
+<td>9</td>
+<td>testcases.SignUpPageTest@6025e1b6</td></tr>
+<tr>
+<td title='testcases.ProductsPageTest.AddReviewOnProduct()'><b>AddReviewOnProduct</b><br>Test class: testcases.ProductsPageTest<br>Parameters: public void testcases.ProductsPageTest.AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException, TEST, Test@gmail.com,  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</td>
+<td></td>
+<td>15</td>
+<td>testcases.ProductsPageTest@327514f</td></tr>
+</table><p>
+</body>
+</html>

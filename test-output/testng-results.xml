@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-03T20:11:58 WAT" name="Automation Exercice Test" finished-at="2023-12-03T20:23:12 WAT" duration-ms="673170">
+    <groups>
+    </groups>
+    <test started-at="2023-12-03T20:11:58 WAT" name="Test all on chrome" finished-at="2023-12-03T20:23:12 WAT" duration-ms="673170">
+      <class name="testcases.TestCasesPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.TestCasesPageTest@4c402120]" started-at="2023-12-03T20:15:47 WAT" name="setUp" finished-at="2023-12-03T20:15:58 WAT" duration-ms="10945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.TestCasesPageTest.ClickOnTestCases(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickOnTestCases(java.lang.reflect.Method)[pri:7, instance:testcases.TestCasesPageTest@4c402120]" started-at="2023-12-03T20:15:58 WAT" name="ClickOnTestCases" finished-at="2023-12-03T20:16:01 WAT" duration-ms="2694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCasesPageTest.ClickOnTestCases(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTestCases -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.TestCasesPageTest@4c402120]" started-at="2023-12-03T20:16:01 WAT" name="tearDown" finished-at="2023-12-03T20:16:02 WAT" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCasesPageTest.ClickOnTestCases(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickOnTestCases status=SUCCESS method=TestCasesPageTest.ClickOnTestCases(java.lang.reflect.Method)[pri:7, instance:testcases.TestCasesPageTest@4c402120] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCasesPageTest -->
+      <class name="testcases.OrderPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:08 WAT" name="setUp" finished-at="2023-12-03T20:19:20 WAT" duration-ms="11938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifySubscription(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySubscription(java.lang.reflect.Method,java.lang.String)[pri:11, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:20 WAT" name="VerifySubscription" data-provider="SubscriptionData" finished-at="2023-12-03T20:19:23 WAT" duration-ms="3621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifySubscription(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@yahoo.fr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubscription -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:23 WAT" name="tearDown" finished-at="2023-12-03T20:19:25 WAT" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifySubscription(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifySubscription status=SUCCESS method=OrderPageTest.VerifySubscription(java.lang.reflect.Method,java.lang.String)[pri:11, instance:testcases.OrderPageTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:25 WAT" name="setUp" finished-at="2023-12-03T20:19:37 WAT" duration-ms="12030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifyProductQte(java.lang.reflect.Method,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyProductQte(java.lang.reflect.Method,java.lang.String)[pri:13, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:37 WAT" name="VerifyProductQte" data-provider="ProductData" finished-at="2023-12-03T20:19:43 WAT" duration-ms="6527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifyProductQte(java.lang.reflect.Method,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductQte -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:43 WAT" name="tearDown" finished-at="2023-12-03T20:19:44 WAT" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.VerifyProductQte(java.lang.reflect.Method,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductQte status=SUCCESS method=OrderPageTest.VerifyProductQte(java.lang.reflect.Method,java.lang.String)[pri:13, instance:testcases.OrderPageTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:44 WAT" name="setUp" finished-at="2023-12-03T20:19:54 WAT" duration-ms="10132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.RemoveProduct(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RemoveProduct(java.lang.reflect.Method)[pri:17, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:19:54 WAT" name="RemoveProduct" finished-at="2023-12-03T20:20:25 WAT" duration-ms="31030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.RemoveProduct(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProduct -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.OrderPageTest@1165b38]" started-at="2023-12-03T20:20:25 WAT" name="tearDown" finished-at="2023-12-03T20:20:27 WAT" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.OrderPageTest.RemoveProduct(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=RemoveProduct status=SUCCESS method=OrderPageTest.RemoveProduct(java.lang.reflect.Method)[pri:17, instance:testcases.OrderPageTest@1165b38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OrderPageTest -->
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:01 WAT" name="setUp" finished-at="2023-12-03T20:12:16 WAT" duration-ms="14896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.Subscription(java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Subscription(java.lang.String,java.lang.reflect.Method)[pri:10, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:16 WAT" name="Subscription" data-provider="SubscriptionData" finished-at="2023-12-03T20:12:18 WAT" duration-ms="2428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@yahoo.fr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.Subscription(java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscription -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:18 WAT" name="tearDown" finished-at="2023-12-03T20:12:19 WAT" duration-ms="1018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.Subscription(java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Subscription status=SUCCESS method=HomePageTest.Subscription(java.lang.String,java.lang.reflect.Method)[pri:10, instance:testcases.HomePageTest@3c46e67a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:19 WAT" name="setUp" finished-at="2023-12-03T20:12:30 WAT" duration-ms="10287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.VerifyScrollUp(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyScrollUp(java.lang.reflect.Method)[pri:25, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:30 WAT" name="VerifyScrollUp" finished-at="2023-12-03T20:12:35 WAT" duration-ms="5194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.VerifyScrollUp(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyScrollUp -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@3c46e67a]" started-at="2023-12-03T20:12:35 WAT" name="tearDown" finished-at="2023-12-03T20:12:36 WAT" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.VerifyScrollUp(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyScrollUp status=SUCCESS method=HomePageTest.VerifyScrollUp(java.lang.reflect.Method)[pri:25, instance:testcases.HomePageTest@3c46e67a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.Config">
+        <test-method is-config="true" signature="start()[pri:0, instance:testcases.Config@5e0e82ae]" started-at="2023-12-03T20:11:58 WAT" name="start" finished-at="2023-12-03T20:11:58 WAT" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="End()[pri:0, instance:testcases.Config@5e0e82ae]" started-at="2023-12-03T20:23:12 WAT" name="End" finished-at="2023-12-03T20:23:12 WAT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- testcases.Config -->
+      <class name="testcases.SearchResultPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.SearchResultPageTest@5b12b668]" started-at="2023-12-03T20:18:40 WAT" name="setUp" finished-at="2023-12-03T20:18:52 WAT" duration-ms="11961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SearchResultPageTest.SearchProduct(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProduct(java.lang.reflect.Method,java.lang.String)[pri:9, instance:testcases.SearchResultPageTest@5b12b668]" started-at="2023-12-03T20:18:52 WAT" name="SearchProduct" data-provider="searchProduct" finished-at="2023-12-03T20:19:07 WAT" duration-ms="14917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchResultPageTest.SearchProduct(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tshirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.SearchResultPageTest@5b12b668]" started-at="2023-12-03T20:19:07 WAT" name="tearDown" finished-at="2023-12-03T20:19:08 WAT" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SearchResultPageTest.SearchProduct(java.lang.reflect.Method,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SearchProduct status=SUCCESS method=SearchResultPageTest.SearchProduct(java.lang.reflect.Method,java.lang.String)[pri:9, instance:testcases.SearchResultPageTest@5b12b668] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SearchResultPageTest -->
+      <class name="testcases.ProductsPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:16:02 WAT" name="setUp" finished-at="2023-12-03T20:16:13 WAT" duration-ms="11715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyAllProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyAllProducts(java.lang.reflect.Method)[pri:8, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:16:13 WAT" name="VerifyAllProducts" finished-at="2023-12-03T20:16:29 WAT" duration-ms="15452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyAllProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllProducts -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:16:29 WAT" name="tearDown" finished-at="2023-12-03T20:16:30 WAT" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyAllProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyAllProducts status=SUCCESS method=ProductsPageTest.VerifyAllProducts(java.lang.reflect.Method)[pri:8, instance:testcases.ProductsPageTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:16:30 WAT" name="setUp" finished-at="2023-12-03T20:16:40 WAT" duration-ms="10502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddTocart(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddTocart(java.lang.reflect.Method)[pri:12, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:16:40 WAT" name="AddTocart" finished-at="2023-12-03T20:17:12 WAT" duration-ms="31392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddTocart(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTocart -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:12 WAT" name="tearDown" finished-at="2023-12-03T20:17:13 WAT" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddTocart(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddTocart status=SUCCESS method=ProductsPageTest.AddTocart(java.lang.reflect.Method)[pri:12, instance:testcases.ProductsPageTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:13 WAT" name="setUp" finished-at="2023-12-03T20:17:24 WAT" duration-ms="11385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyCategoryProducts(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyCategoryProducts(java.lang.reflect.Method)[pri:18, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:24 WAT" name="VerifyCategoryProducts" finished-at="2023-12-03T20:17:36 WAT" duration-ms="11914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyCategoryProducts(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCategoryProducts -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:36 WAT" name="tearDown" finished-at="2023-12-03T20:17:37 WAT" duration-ms="1008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyCategoryProducts(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyCategoryProducts status=SUCCESS method=ProductsPageTest.VerifyCategoryProducts(java.lang.reflect.Method)[pri:18, instance:testcases.ProductsPageTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:37 WAT" name="setUp" finished-at="2023-12-03T20:17:51 WAT" duration-ms="13630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyBrandProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyBrandProducts(java.lang.reflect.Method)[pri:19, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:17:51 WAT" name="VerifyBrandProducts" finished-at="2023-12-03T20:18:10 WAT" duration-ms="19421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyBrandProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBrandProducts -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:18:10 WAT" name="tearDown" finished-at="2023-12-03T20:18:11 WAT" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.VerifyBrandProducts(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyBrandProducts status=SUCCESS method=ProductsPageTest.VerifyBrandProducts(java.lang.reflect.Method)[pri:19, instance:testcases.ProductsPageTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:18:11 WAT" name="setUp" finished-at="2023-12-03T20:18:23 WAT" duration-ms="11960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:21, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:18:23 WAT" name="AddReviewOnProduct" data-provider="ReviewData" finished-at="2023-12-03T20:18:39 WAT" duration-ms="15285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReviewOnProduct -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ProductsPageTest@327514f]" started-at="2023-12-03T20:18:39 WAT" name="tearDown" finished-at="2023-12-03T20:18:40 WAT" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductsPageTest.AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddReviewOnProduct status=SUCCESS method=ProductsPageTest.AddReviewOnProduct(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String)[pri:21, instance:testcases.ProductsPageTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ProductsPageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:13:57 WAT" name="setUp" finished-at="2023-12-03T20:14:08 WAT" duration-ms="11369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithIncorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithIncorrectCredentials(java.lang.reflect.Method)[pri:2, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:08 WAT" name="testLoginWithIncorrectCredentials" finished-at="2023-12-03T20:14:17 WAT" duration-ms="9133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithIncorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorrectCredentials -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:17 WAT" name="tearDown" finished-at="2023-12-03T20:14:18 WAT" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithIncorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithIncorrectCredentials status=SUCCESS method=LoginPageTest.testLoginWithIncorrectCredentials(java.lang.reflect.Method)[pri:2, instance:testcases.LoginPageTest@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:18 WAT" name="setUp" finished-at="2023-12-03T20:14:30 WAT" duration-ms="11955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.Logout(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Logout(java.lang.reflect.Method)[pri:3, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:30 WAT" name="Logout" finished-at="2023-12-03T20:14:46 WAT" duration-ms="15582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.Logout(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:46 WAT" name="tearDown" finished-at="2023-12-03T20:14:47 WAT" duration-ms="953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.Logout(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=LoginPageTest.Logout(java.lang.reflect.Method)[pri:3, instance:testcases.LoginPageTest@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:47 WAT" name="setUp" finished-at="2023-12-03T20:14:58 WAT" duration-ms="11190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithCorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithCorrectCredentials(java.lang.reflect.Method)[pri:5, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:14:58 WAT" name="testLoginWithCorrectCredentials" finished-at="2023-12-03T20:15:15 WAT" duration-ms="16854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithCorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCorrectCredentials -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@22ff4249]" started-at="2023-12-03T20:15:15 WAT" name="tearDown" finished-at="2023-12-03T20:15:16 WAT" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.testLoginWithCorrectCredentials(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithCorrectCredentials status=SUCCESS method=LoginPageTest.testLoginWithCorrectCredentials(java.lang.reflect.Method)[pri:5, instance:testcases.LoginPageTest@22ff4249] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.ShippingPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ShippingPageTest@4c12331b]" started-at="2023-12-03T20:20:27 WAT" name="setUp" finished-at="2023-12-03T20:20:39 WAT" duration-ms="11732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ShippingPageTest.VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:testcases.ShippingPageTest@4c12331b]" started-at="2023-12-03T20:20:39 WAT" name="VerifyDeliveryAdress" data-provider="newAcountDetailsData" finished-at="2023-12-03T20:21:37 WAT" duration-ms="58448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ShippingPageTest.VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ATT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TestUser]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UserTest]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Ezee it]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Adress1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Adress2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[San]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[91436]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[8489875678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeliveryAdress -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ShippingPageTest@4c12331b]" started-at="2023-12-03T20:21:37 WAT" name="tearDown" finished-at="2023-12-03T20:21:39 WAT" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ShippingPageTest.VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=VerifyDeliveryAdress status=SUCCESS method=ShippingPageTest.VerifyDeliveryAdress(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:23, instance:testcases.ShippingPageTest@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ShippingPageTest -->
+      <class name="testcases.EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.EndToEndTest@7586beff]" started-at="2023-12-03T20:21:39 WAT" name="setUp" finished-at="2023-12-03T20:21:51 WAT" duration-ms="12360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.EndToEndTest.endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:testcases.EndToEndTest@7586beff]" started-at="2023-12-03T20:21:51 WAT" name="endToEndTest" data-provider="newAcountDetailsData" finished-at="2023-12-03T20:23:10 WAT" duration-ms="78846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.EndToEndTest.endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ATT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TestUser]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UserTest]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Ezee it]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Adress1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Adress2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[San]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[91436]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[8489875678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.EndToEndTest@7586beff]" started-at="2023-12-03T20:23:10 WAT" name="tearDown" finished-at="2023-12-03T20:23:12 WAT" duration-ms="1229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.EndToEndTest.endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=endToEndTest status=SUCCESS method=EndToEndTest.endToEndTest(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:testcases.EndToEndTest@7586beff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.EndToEndTest -->
+      <class name="testcases.ContactPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.ContactPageTest@2d1ef81a]" started-at="2023-12-03T20:15:16 WAT" name="setUp" finished-at="2023-12-03T20:15:28 WAT" duration-ms="11689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.ContactPageTest.ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testcases.ContactPageTest@2d1ef81a]" started-at="2023-12-03T20:15:28 WAT" name="ContactUs" data-provider="ContactData" finished-at="2023-12-03T20:15:46 WAT" duration-ms="18014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ContactPageTest.ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AZ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[It is a long established fact that a reader will be distracted by the readablelook like readable English.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.ContactPageTest@2d1ef81a]" started-at="2023-12-03T20:15:46 WAT" name="tearDown" finished-at="2023-12-03T20:15:47 WAT" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ContactPageTest.ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ContactUs status=SUCCESS method=ContactPageTest.ContactUs(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testcases.ContactPageTest@2d1ef81a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ContactPageTest -->
+      <class name="testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:12:37 WAT" name="setUp" finished-at="2023-12-03T20:12:49 WAT" duration-ms="12096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:12:49 WAT" name="RegisterUser" data-provider="newAcountDetailsData" finished-at="2023-12-03T20:13:34 WAT" duration-ms="44981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ATT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TestUser]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[UserTest]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Ezee it]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Adress1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Adress2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[San]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[91436]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[8489875678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:13:34 WAT" name="tearDown" finished-at="2023-12-03T20:13:35 WAT" duration-ms="1080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=RegisterUser status=SUCCESS method=SignUpPageTest.RegisterUser(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.SignUpPageTest@6025e1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:13:35 WAT" name="setUp" finished-at="2023-12-03T20:13:46 WAT" duration-ms="10957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUserWithExistingEmail(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterUserWithExistingEmail(java.lang.reflect.Method)[pri:4, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:13:46 WAT" name="RegisterUserWithExistingEmail" finished-at="2023-12-03T20:13:55 WAT" duration-ms="9570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUserWithExistingEmail(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUserWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testcases.SignUpPageTest@6025e1b6]" started-at="2023-12-03T20:13:55 WAT" name="tearDown" finished-at="2023-12-03T20:13:57 WAT" duration-ms="1286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SignUpPageTest.RegisterUserWithExistingEmail(java.lang.reflect.Method) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=RegisterUserWithExistingEmail status=SUCCESS method=SignUpPageTest.RegisterUserWithExistingEmail(java.lang.reflect.Method)[pri:4, instance:testcases.SignUpPageTest@6025e1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SignUpPageTest -->
+    </test> <!-- Test all on chrome -->
+  </suite> <!-- Automation Exercice Test -->
+</testng-results>
