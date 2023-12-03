@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Exercice Test">
+	 <listeners>
+	    <listener class-name="listeners.Listeners"></listener>
+	</listeners>	
+	
+  <test name="Test all on chrome">
+	 <parameter name="Browser" value="chrome"></parameter>  
+    <classes>
+	   <class name="testcases.Config"/>	
+	   <class name="testcases.HomePageTest"/>
+	   <class name="testcases.SignUpPageTest"/>	     
+       <class name="testcases.LoginPageTest"/>    
+       <class name="testcases.ContactPageTest"/>
+       <class name="testcases.TestCasesPageTest"/>
+       <class name="testcases.ProductsPageTest"/>
+       <class name="testcases.SearchResultPageTest"/>
+       <class name="testcases.OrderPageTest"/> 
+       <class name="testcases.ShippingPageTest"/>
+       <class name="testcases.EndToEndTest"/>  
+    </classes>
+  </test>
+  
+<test name="Test all  on firefox">
+	 <parameter name="Browser" value="firefox"></parameter> 
+    <classes>
+	   <class name="testcases.Config"/>	
+	   <class name="testcases.HomePageTest"/>
+	   <class name="testcases.SignUpPageTest"/>	     
+       <class name="testcases.LoginPageTest"/>    
+       <class name="testcases.ContactPageTest"/>
+       <class name="testcases.TestCasesPageTest"/>
+       <class name="testcases.ProductsPageTest"/>
+       <class name="testcases.SearchResultPageTest"/>
+       <class name="testcases.OrderPageTest"/> 
+       <class name="testcases.ShippingPageTest"/>
+       <class name="testcases.EndToEndTest"/>  
+    </classes>
+  </test>  
+  
+ <test name="Test all on Edge">
+	 <parameter name="Browser" value="Edge"></parameter>    
+    <classes>
+	   <class name="testcases.Config"/>	
+	   <class name="testcases.HomePageTest"/>
+	   <class name="testcases.SignUpPageTest"/>	     
+       <class name="testcases.LoginPageTest"/>    
+       <class name="testcases.ContactPageTest"/>
+       <class name="testcases.TestCasesPageTest"/>
+       <class name="testcases.ProductsPageTest"/>
+       <class name="testcases.SearchResultPageTest"/>
+       <class name="testcases.OrderPageTest"/> 
+       <class name="testcases.ShippingPageTest"/>
+       <class name="testcases.EndToEndTest"/> 
+    </classes>
+  </test>
+  
+</suite> <!-- AutomationExercice -->
